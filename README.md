@@ -7,7 +7,11 @@ VIP, VIP IP, VIP PORT, POOL, LOAD BALANCER METHOD, POOL MEMBER, POOL MEMBER PORT
 Features:
 
 Checks to see if a device is active or standby and only queries the active device.
+
 Check to all partitions (not just common).
+
 Checks all VIPS per partition (even just forwarding VIPS).
+
 Outputs as HTML.
+
 Has a separate log file that logs begin and end of processing each device (useful for timings).
